@@ -1,24 +1,31 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>jQuery and Ajax Github API</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <title>jQuery and Ajax Github API</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body>
 
-    <div id="interfaceBox">
-      <h1>jQuery and Ajax Github API</h1>
-      <p>Quick Search:</p>
+  <div id="interfaceBox">
+    <h1>jQuery and Ajax Github API</h1>
+    <p>Quick Search:</p>
 
-      <input type="text" name="ghusername" id="ghusername" placeholder="Enter a Github username...">
+    <input type="text" name="ghusername" id="ghusername" placeholder="Enter a Github username...">
 
-      <a href="#" id="ghsubmitbtn">Submit</a>
+    <button type="button" class="btn btn-primary" id="ghsubmitbtn">Submit</button>
 
-      <div id="ghapidata" class="clearfix"></div>
-    </div>
+    <div id="ghapidata" class="clearfix"></div>
+  </div>
 
 
-  </body>
-  <script src="js/main.js"></script>
+</body>
+<script src="js/main.js"></script>
 </html>

@@ -1,0 +1,15 @@
+#interfaceBox {
+  display: block;
+  width: 1000px;
+  margin: 0 auto;
+  padding: 15px 25px;
+}
+
+#ghusername {
+  display: block;
+  padding: 5px 8px;
+  font-size: 1.4em;
+  color: #666;
+  width: 550px;
+  margin-bottom: 15px;
+}
